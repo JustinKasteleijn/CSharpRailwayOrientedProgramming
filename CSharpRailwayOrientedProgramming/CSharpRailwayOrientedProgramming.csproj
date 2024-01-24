@@ -2,6 +2,32 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>CSharp Railway Oriented Programming</Title>
+    <Description>A library that supports Railway Oriented Programming in C#. Later will release a different package optimized for performance.</Description>
+    <Copyright>Justin Kasteleijn 2024</Copyright>
+    <PackageIcon>railway.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/JustinKasteleijn/CSharpRailwayOrientedProgramming</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Railway Oriented Programming; ROP; Functional; Rust; Result; Maybe; Monad;</PackageTags>
+    <PackageReleaseNotes>First release, all tests are passing. </PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Pictures\railway.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
